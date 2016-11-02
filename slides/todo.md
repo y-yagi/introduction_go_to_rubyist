@@ -1,6 +1,8 @@
 TODO
 
 * Goの紹介
+  * 各型について
+  * channelについて
 * Go入門
   * [A Tour of Go](https://go-tour-jp.appspot.com/welcome/1)
   * オススメ書籍
