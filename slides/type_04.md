@@ -8,5 +8,7 @@ const Usage = `This is usage message
 
 Usage:
   xx yyy
+`
 ```
+
 * 改行は改行コードとして認識される
