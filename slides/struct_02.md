@@ -20,7 +20,7 @@ type User struct {
 ```
 
 ```go
-	taro := User{"Taro", "Ginza", "taro@example.com", 4, Address{"104-0061", "東京都"}}
-	fmt.Println(taro.firstName)
-	fmt.Println(taro.address.zipCode)
+taro := User{"Taro", "Ginza", "taro@example.com", 4, Address{"104-0061", "東京都"}}
+fmt.Println(taro.firstName)
+fmt.Println(taro.address.zipCode)
 ```
