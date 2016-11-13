@@ -1,5 +1,5 @@
 
-## オススメツール
+## tool
 
 * 何はともあれ[gofmt](https://golang.org/cmd/gofmt/)
   * :tab:

@@ -1,5 +1,5 @@
 
-## オススメツール
+## tool
 
 * [gore: Yet another Go REPL that works nicely\.](https://github.com/motemen/gore)
   * REPL
