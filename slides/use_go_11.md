@@ -1,5 +1,5 @@
 
-## 性能比較
+## Go
 
 * Go
   * Web frameworkは[Goji](https://goji.io/)
