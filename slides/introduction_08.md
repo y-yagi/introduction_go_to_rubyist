@@ -1,7 +1,7 @@
 
 ## example
 
-* ウェブサーバからコンテンツを取得するダウンローダ(簡易)
+* ウェブサーバからコンテンツを取得するダウンローダみたいなの
 
 ```go
 package main
@@ -14,21 +14,6 @@ import (
 
 	"github.com/pkg/errors"
 )
-
-func fetch(url string) (body []byte, err error) {
-	resp, err := http.Get(url)
-	if err != nil {
-		return nil, errors.Wrap(err, "get failed")
-	}
-
-	defer resp.Body.Close()
-
-	body, err = ioutil.ReadAll(resp.Body)
-	if err != nil {
-		return nil, errors.Wrap(err, "read failed")
-	}
-	return body, err
-}
 
 func main() {
 	if len(os.Args) == 1 {
@@ -44,5 +29,19 @@ func main() {
 		}
 		fmt.Printf("%s", body)
 	}
+}
+func fetch(url string) (body []byte, err error) {
+	resp, err := http.Get(url)
+	if err != nil {
+		return nil, errors.Wrap(err, "get failed")
+	}
+
+	defer resp.Body.Close()
+
+	body, err = ioutil.ReadAll(resp.Body)
+	if err != nil {
+		return nil, errors.Wrap(err, "read failed")
+	}
+	return body, err
 }
 ```
