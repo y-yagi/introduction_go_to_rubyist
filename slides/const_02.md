@@ -2,7 +2,7 @@
 ## 定数
 
 * 関連した値の列を生成するのに使える定数生成器(iota)という機能がある
-  * ようはenum
+  * enumみたいなの
 
 ```Go
 type Weekday int

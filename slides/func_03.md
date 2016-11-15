@@ -19,5 +19,5 @@ func subtraction(x, y int) int {
 
 ```go
 fmt.Println(calc.Sum(1, 2))
-fmt.Println(calc.subtraction(1, 2)) // "cannot refer to unexported name calc.subtractio"でbuild時にエラー
+fmt.Println(calc.subtraction(1, 2)) // "cannot refer to unexported name calc.subtractio"(コンパイル時にエラー)
 ```

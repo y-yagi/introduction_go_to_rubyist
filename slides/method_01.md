@@ -18,4 +18,3 @@ func (u *User) FullName() string {
 taro := User{"Taro", "Ginza"}
 fmt.Println(taro.FullName) // "TaroGinza"
 ```
-* 構造体に対してメソッドを追加していくことでオブジェクト志向っぽいことも出来る

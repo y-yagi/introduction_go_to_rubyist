@@ -2,7 +2,6 @@
 ## 構造体埋め込み
 
 * 構造体に構造体を埋め込む事が出来る
-  * "継承"っぽい事も出来なくも無い
 
 ```go
 type Car struct {
@@ -24,3 +23,5 @@ var truck Truck
 truck.name = "alto"
 truck.name // "alto"
 ```
+
+* 継承っぽく使えそうに見えるが、あくまで移譲

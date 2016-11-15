@@ -1,5 +1,5 @@
 
-## 性能比較
+## Ruby(Rails)
 
 * Ruby
   * Rails 5.0.0.1(API only mode)

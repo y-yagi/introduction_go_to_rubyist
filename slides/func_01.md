@@ -1,8 +1,6 @@
 
 ## 関数
 
-* 宣言は下記通り
-
 ```
 func name(parameter-list) (result-list) {
 }
