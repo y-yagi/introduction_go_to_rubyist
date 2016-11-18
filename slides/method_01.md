@@ -16,5 +16,5 @@ func (u *User) FullName() string {
 
 ```go
 taro := User{"Taro", "Ginza"}
-fmt.Println(taro.FullName) // "TaroGinza"
+fmt.Println(taro.FullName()) // "TaroGinza"
 ```
